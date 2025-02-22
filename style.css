@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,22 +15,44 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+  padding-bottom: 2vh;
 }
 
 #header__logo {
-  align-self: center;
   width: 10vw;
   min-width: 36px;
 }
 
-#header__div {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1;
-}
-
 .header__links {
   align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.header__links__botoes {
+  color: rgb(14, 100, 228);
+  font-family: "Noto Sans", serif;
+  font-size: 1.4rem;
+  border: solid 2px white;
+}
+
+.header__links__botoes:hover {
+  border: solid 2px #303f9f;
+  border-style: inset;
+  background-color: #303f9f;
+  border-radius: 7px;
+  color: white;
+}
+
+#header__div__centralizar {
+  width: 10vw;
+  min-width: 36px;
+  visibility: hidden;
 }
 
 main {
@@ -36,7 +60,7 @@ main {
 }
 
 .section__principal {
-  padding-top: 5vh;
+  padding-top: 3vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -46,13 +70,15 @@ main {
 
 #section__principal__imagem {
   width: 80%;
-  border: solid 2px dodgerblue;
-  border-radius: 4px;
+  border: solid 2px rgb(74, 137, 209);
+  border-radius: 6px;
 }
 
 .footer {
   display: flex;
-  background-color: aqua;
+  background-color: #282d7d;
+  color: white;
+
   flex-wrap: wrap;
   min-width: 11vh;
 }
@@ -60,7 +86,7 @@ main {
 .footer__links {
   display: flex;
   align-items: center;
-  padding-left: 1vh;
+  padding-left: 2vw;
   flex: 1;
   flex-wrap: wrap;
 }
@@ -75,6 +101,8 @@ main {
 
 #footer__logo {
   margin-left: auto;
-  margin-right: 1vw;
+  margin-right: 3vw;
   align-self: center;
+  width: 6vw;
+  min-width: 72px;
 }
