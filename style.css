@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   height: 100vh;
+  align-items: center;
 }
 
 .header {
@@ -18,6 +19,7 @@ body {
   justify-content: space-between;
   border-bottom: 2px solid grey;
   padding-bottom: 2vh;
+  width: 100%;
 }
 
 #header__logo {
@@ -57,29 +59,14 @@ body {
 
 main {
   flex: 1;
-}
-
-.section__principal {
-  padding-top: 3vh;
-  flex-wrap: wrap;
-  padding: 5%;
-}
-
-#section__principal__imagem {
   width: 100%;
-  border: solid 2px rgb(74, 137, 209);
-  border-radius: 6px;
-  float: right;
-  max-width: 800px;
-  max-height: 380px;
-  margin-left: 3%;
 }
 
 .footer {
   display: flex;
   background-color: #282d7d;
   color: white;
-
+  width: 100%;
   flex-wrap: wrap;
   min-width: 11vh;
 }
@@ -106,4 +93,46 @@ main {
   align-self: center;
   width: 6vw;
   min-width: 72px;
+}
+
+/* PÁGINA PRINCIPAL (index.html) */
+
+.section__principal {
+  padding-top: 3vh;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+#section__principal__imagem {
+  width: 100%;
+  border: solid 2px rgb(74, 137, 209);
+  border-radius: 6px;
+  float: right;
+  max-width: 800px;
+  max-height: 380px;
+  margin-left: 3%;
+}
+
+/* PÁGINA DE LANÇAMENTO (lancamento.html) */
+
+.section__lancamento__video {
+  display: flex;
+  background-color: rebeccapurple;
+}
+
+.section__lancamento__video__div {
+  width: 100%;
+  height: 40vh;
+}
+
+.section__lancamento__comparar__div__imagens {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section__lancamento__comparar__div__menu {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20%;
+  gap: 2%;
 }
