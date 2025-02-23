@@ -117,22 +117,32 @@ main {
 
 .section__lancamento__video {
   display: flex;
-  background-color: rebeccapurple;
 }
 
 .section__lancamento__video__div {
   width: 100%;
-  height: 40vh;
+  height: 45vh;
 }
 
 .section__lancamento__comparar__div__imagens {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10%;
+  padding-top: 5%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section__lancamento__comparar__div__imagens__produto {
+  width: 21%;
 }
 
 .section__lancamento__comparar__div__menu {
   display: flex;
-  justify-content: space-around;
-  margin-right: 20%;
-  gap: 2%;
+  justify-content: center;
+  /* gap: 10px; */
+}
+
+.section__lancamento__comparar__div__menu__label {
+  margin-right: 2%;
 }
