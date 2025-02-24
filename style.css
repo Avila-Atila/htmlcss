@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -52,13 +54,13 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 2px solid grey;
-  padding-bottom: 2vh;
+  padding-bottom: 1vh;
   width: 100%;
   animation: transicaoHeader 0.75s;
 }
 
 #header__logo {
-  width: 10vw;
+  width: 9vw;
   min-width: 36px;
 }
 
@@ -87,9 +89,10 @@ body {
 }
 
 #header__div__centralizar {
-  width: 10vw;
+  width: 9vw;
   min-width: 36px;
   visibility: hidden;
+  flex-shrink: 3;
 }
 
 main {
@@ -138,6 +141,18 @@ main {
   flex-wrap: wrap;
   padding: 5%;
   animation: transicaoPagina 0.9s;
+}
+
+#section__principal__titulo {
+  font-family: "Poppins", sans-serif;
+}
+
+#section__principal__texto {
+  font-family: "Roboto", sans-serif;
+}
+
+.highlight {
+  color: rgb(74, 137, 209);
 }
 
 #section__principal__imagem {
