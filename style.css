@@ -52,7 +52,6 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   height: 100vh;
-  align-items: center;
 }
 
 .header {
@@ -142,7 +141,6 @@ main {
 
 .section__principal {
   padding-top: 3vh;
-  flex-wrap: wrap;
   padding: 5%;
   animation: transicaoPagina 0.9s;
 }
@@ -233,4 +231,62 @@ main {
 
 .section__lancamento__comparar__div__menu__label__titulo {
   color: var(--cor-azul-fraca);
+}
+
+/* PÁGINA DE CONTATO (contato.html) */
+
+.section__contato {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  flex-wrap: wrap;
+  width: 50%;
+}
+#section__contato__imagem {
+  float: left;
+  width: 64.256%;
+  max-width: 320px;
+}
+.section__contato__form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 10vh;
+  gap: 15px;
+  input {
+    flex-wrap: wrap;
+    border: grey 2px solid;
+    padding: 1%;
+    border-radius: 4px;
+  }
+  select {
+    flex-wrap: wrap;
+    border: grey 2px solid;
+    padding: 1%;
+    border-radius: 4px;
+  }
+  width: 64.256%;
+  max-width: 320px;
+  textarea {
+    flex-wrap: wrap;
+    border: grey 2px solid;
+    padding: 1%;
+    border-radius: 4px;
+  }
+}
+
+#section__contato__form__submit {
+  width: 55%;
+  align-self: flex-end;
+  background-color: var(--cor-azul-fraca);
+  color: var(--cor-branca);
+  border: hidden;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+#section__contato__form__submit:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
