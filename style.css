@@ -167,6 +167,13 @@ main {
   color: var(--cor-azul-fraca);
 }
 
+#section__principal__div {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-left: 3%;
+}
+
 #section__principal__imagem {
   width: 100%;
   border: solid 2px var(--cor-azul-forte);
@@ -174,14 +181,8 @@ main {
 
   max-width: 800px;
   max-height: 380px;
-  margin-left: 3%;
 }
 
-#section__principal__div {
-  display: flex;
-  flex-direction: column;
-  float: right;
-}
 #section__principal__imagem__link {
   align-self: flex-end;
   margin-top: 1%;
@@ -237,6 +238,8 @@ main {
   justify-content: space-evenly;
   align-items: flex-start;
   height: 100%;
+  font-family: "Poppins", sans-serif;
+  /* font-size: 1rem; */
 }
 
 #section__lancamento__comparar__form__submit {
@@ -282,6 +285,7 @@ main {
   gap: 15px;
   width: 64.256%;
   max-width: 320px;
+  font-family: "Noto Sans", serif;
   input {
     flex-wrap: wrap;
     border: grey 2px solid;
