@@ -224,7 +224,7 @@ main {
   height: 25px;
 }
 .section__lancamento__comparar__tabela {
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .section__lancamento__comparar__tabela:hover {
@@ -321,4 +321,8 @@ main {
   transform: scale(1.1);
   cursor: pointer;
   background-color: var(--cor-azul-fraca);
+}
+
+.teste {
+  display: flex;
 }
