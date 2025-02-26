@@ -310,7 +310,7 @@ main {
 #section__contato__form__submit {
   width: 55%;
   align-self: flex-end;
-  background-color: var(--cor-azul-fraca);
+  background-color: grey;
   color: var(--cor-branca);
   border: hidden;
   border-radius: 5px;
@@ -320,4 +320,5 @@ main {
 #section__contato__form__submit:hover {
   transform: scale(1.1);
   cursor: pointer;
+  background-color: var(--cor-azul-fraca);
 }
